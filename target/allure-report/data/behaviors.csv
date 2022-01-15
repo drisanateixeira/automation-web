@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Store","Search item and validate it is in stock","0","0","1","0","0"
+"","Search CEP and validate","Search and validate CEP","0","0","1","0","0"
+"","Store","Search item and validate it does not exist","0","0","1","0","0"

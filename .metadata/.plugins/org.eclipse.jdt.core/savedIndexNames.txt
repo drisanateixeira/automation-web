@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\adara.santos\monitoring-test-ui\monitoring-test-ui\.metadata\.plugins\org.eclipse.jdt.core

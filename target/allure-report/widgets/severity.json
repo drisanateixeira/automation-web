@@ -1,0 +1,31 @@
+[ {
+  "uid" : "6e2e4bd99d6f2262",
+  "name" : "Search and validate CEP",
+  "time" : {
+    "start" : 1642278241333,
+    "stop" : 1642278268266,
+    "duration" : 26933
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "21293e142edeab50",
+  "name" : "Search item and validate it does not exist",
+  "time" : {
+    "start" : 1642278269540,
+    "stop" : 1642278299576,
+    "duration" : 30036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4d385769d5e83e0",
+  "name" : "Search item and validate it is in stock",
+  "time" : {
+    "start" : 1642278299620,
+    "stop" : 1642278333755,
+    "duration" : 34135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

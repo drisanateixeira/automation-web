@@ -1,0 +1,1284 @@
+!SESSION 2020-05-22 10:12:55.595 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2020-05-22 10:16:50.312
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-05-22 10:16:50.312
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2020-05-22 10:16:54.841
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2020-05-22 10:16:54.950
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2020-05-22 10:17:01.212
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-22 10:17:01.212
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39a809db,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1512a767,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-22 10:17:31.383
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-22 10:24:45.216 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-22 10:26:19.630
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-22 10:26:19.630
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61761e60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7aca4144,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-22 10:26:30.868
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2020-05-22 10:29:00.147
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-22 10:29:00.148
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53f9d811,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3057effe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-22 10:46:42.189
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-22 10:46:42.189
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.190
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.191
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.228
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.229
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.230
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-22 10:46:42.506
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-22 10:46:42.506
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.506
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.506
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.506
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-22 10:46:42.507
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+!SESSION 2020-05-25 16:30:36.307 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-05-25 16:31:04.053
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2020-05-25 16:31:59.919
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-25 16:31:59.919
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5546a9e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c027237,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2020-05-25 16:32:27.300
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-25 16:32:27.300
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a7240fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46167a63,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-25 16:32:28.176
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-25 17:04:16.758
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-25 17:04:16.758
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.758
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.759
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-25 17:04:16.764
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-25 17:04:16.764
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.764
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-25 17:04:16.765
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+!SESSION 2020-05-25 17:11:44.696 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-25 17:12:56.224
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-25 17:12:56.224
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d36204f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71443983,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-25 17:13:13.253
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2020-05-25 17:16:37.108
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:515)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1976)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+!SESSION 2020-05-25 17:16:45.692 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-25 17:17:10.734
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-25 17:17:10.734
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cd6112b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f7eeaaf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-25 17:17:21.548
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-25 17:20:12.517 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-25 17:24:01.199
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-25 17:24:01.199
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fcdeb50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f7a2a79,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-25 17:24:12.604
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-26 11:13:13.695 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-26 11:14:52.354
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-26 11:14:52.354
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61761e60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7aca4144,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-26 11:15:09.972
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-26 11:17:19.962 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/adara.santos/monitoring-test-ui/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-26 11:17:33.147
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-26 11:17:33.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9da20f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a52178,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-26 11:17:42.830
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-26 11:18:30.522 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Users/adara.santos/monitoring-test-ui/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-26 11:18:44.000
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-26 11:18:44.000
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5113ab26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a64e2d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-26 11:18:53.833
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-05-26 11:31:53.169 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-26 11:33:41.588
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-26 11:33:41.588
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7585531b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fbe0f64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-26 11:33:51.105
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-26 11:36:09.599
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-26 11:36:09.599
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.599
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.600
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-26 11:36:09.620
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-26 11:36:09.620
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.620
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.621
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.622
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-26 11:36:09.623
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+!SESSION 2020-05-27 08:13:25.738 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=14
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-05-27 08:14:29.778
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-27 08:14:29.778
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ca93dee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@430abcad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-27 08:14:51.328
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adara.santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-27 08:54:17.090
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-27 08:54:17.091
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.091
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-05-27 08:54:17.096
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-05-27 08:54:17.096
+!MESSAGE session context was:(profile=C__Users_adara.santos_eclipse_jee-latest-released_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-05-27 08:54:17.096
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356

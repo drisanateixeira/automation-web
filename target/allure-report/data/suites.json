@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Search CEP and validate",
+    "children" : [ {
+      "name" : "Search and validate CEP",
+      "uid" : "6e2e4bd99d6f2262",
+      "parentUid" : "917b3ffc5c82a39252dec558308b0484",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642278241333,
+        "stop" : 1642278268266,
+        "duration" : 26933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "917b3ffc5c82a39252dec558308b0484"
+  }, {
+    "name" : "Store",
+    "children" : [ {
+      "name" : "Search item and validate it does not exist",
+      "uid" : "21293e142edeab50",
+      "parentUid" : "8c145b2afbfb0c6eeb56759b17ccd0f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642278269540,
+        "stop" : 1642278299576,
+        "duration" : 30036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Search item and validate it is in stock",
+      "uid" : "f4d385769d5e83e0",
+      "parentUid" : "8c145b2afbfb0c6eeb56759b17ccd0f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642278299620,
+        "stop" : 1642278333755,
+        "duration" : 34135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c145b2afbfb0c6eeb56759b17ccd0f4"
+  } ]
+}

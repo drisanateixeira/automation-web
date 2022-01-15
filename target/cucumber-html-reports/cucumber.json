@@ -1,0 +1,416 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search CEP",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3731418400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I access the site \"https://buscacepinter.correios.com.br/app/endereco/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://buscacepinter.correios.com.br/app/endereco/index.php\"",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchCepStep.accessURL(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9425749400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search and validate CEP",
+        "description": "",
+        "id": "search-cep-and-validate;search-and-validate-cep",
+        "after": [
+          {
+            "result": {
+              "duration": 608538900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4142697500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2200956400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click in the search field and set CEP \"80700000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"80700000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "SearchCepStep.inputCEP(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 810454600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate that the CEP is \"invalid\" and validate the message \"Não há dados a serem exibidos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Não há dados a serem exibidos\"",
+                  "offset": 60
+                }
+              ],
+              "location": "SearchCepStep.validateMenssage(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3435843400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "go back to the menu and validate the title \"Busca CEP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Busca CEP\"",
+                  "offset": 43
+                }
+              ],
+              "location": "SearchCepStep.backToMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1831366600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click in the search field and set CEP \"81280-140\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"81280-140\"",
+                  "offset": 38
+                }
+              ],
+              "location": "SearchCepStep.inputCEP(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678499700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate that the CEP is \"valid\" and validate the message \"Avenida Juscelino Kubitschek de Oliveira - até 2199 - lado ímpar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Avenida Juscelino Kubitschek de Oliveira - até 2199 - lado ímpar\"",
+                  "offset": 58
+                }
+              ],
+              "location": "SearchCepStep.validateMenssage(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          }
+        ]
+      }
+    ],
+    "name": "Search CEP and validate",
+    "description": "",
+    "id": "search-cep-and-validate",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/searchCeep.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5621527200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search item and validate it does not exist",
+        "description": "",
+        "id": "store;search-item-and-validate-it-does-not-exist",
+        "after": [
+          {
+            "result": {
+              "duration": 500546600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3751884600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11399735800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I access the site \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchCepStep.accessURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7935189800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I seach the item \"camiseta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camiseta\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StoreStep.searchItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 818417300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the message \"No results were found for your search camiseta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No results were found for your search camiseta\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StoreStep.validateStockNotExist(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7443870200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search item and validate it is in stock",
+        "description": "",
+        "id": "store;search-item-and-validate-it-is-in-stock",
+        "after": [
+          {
+            "result": {
+              "duration": 533130600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3539096100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11923307700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I access the site \"http://automationpractice.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchCepStep.accessURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9868082700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I seach the item \"blouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"blouse\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StoreStep.searchItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 821395100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validate that it exists in stock \"Blouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blouse\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StoreStep.validateStockExist(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Store",
+    "description": "",
+    "id": "store",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/store.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

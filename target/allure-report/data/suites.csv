@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jan 15 18:24:59 BRST 2022","Sat Jan 15 18:25:33 BRST 2022","34135","","Store","","Search item and validate it is in stock","","Search item and validate it is in stock",""
+"passed","Sat Jan 15 18:24:01 BRST 2022","Sat Jan 15 18:24:28 BRST 2022","26933","","Search CEP and validate","","Search and validate CEP","","Search and validate CEP",""
+"passed","Sat Jan 15 18:24:29 BRST 2022","Sat Jan 15 18:24:59 BRST 2022","30036","","Store","","Search item and validate it does not exist","","Search item and validate it does not exist",""

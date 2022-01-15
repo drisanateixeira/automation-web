@@ -1,0 +1,129 @@
+:toc: left
+:backend: pdf
+:doctitle: Living Documentation
+:doctype: book
+:icons: font
+:numbered:
+:!linkcss:
+:sectanchors:
+:sectlink:
+:docinfo:
+:source-highlighter: highlightjs
+:toclevels: 3
+:revnumber: 1.0
+:hardbreaks:
+:chapter-label: Chapter
+:version-label: Version
+
+= *Living Documentation*
+
+== *Sumário*
+[cols="12*^m", options="header,footer"]
+|===
+3+|Cenários 7+|Passos 2+|Funcionalidades: 2
+
+|[green]#*Aprovado*#
+|[red]#*Reprovado*#
+|Total
+|[green]#*Aprovado*#
+|[red]#*Reprovado*#
+|[purple]#*N�o executado*#
+|[maroon]#*Pendente*#
+|[yellow]#*Indefinido*#
+|[blue]#*Ausente*#
+|Total
+|Duração
+|Status
+
+12+^|*<<Search-CEP-and-validate>>*
+|1
+|0
+|1
+|6
+|0
+|0
+|0
+|0
+|0
+|6
+|12s 688ms
+|[green]#*passed*#
+
+12+^|*<<Store>>*
+|2
+|0
+|2
+|6
+|0
+|0
+|0
+|0
+|0
+|6
+|42s 766ms
+|[green]#*passed*#
+12+^|*Total*
+|3|0|3|12|0|0|0|0|0|12 2+|55s 454ms
+|===
+
+== *Funcionalidades*
+
+[[Search-CEP-and-validate, Search CEP and validate]]
+=== *Search CEP and validate*
+
+==== Background
+==== Background: Search CEP
+[small]#tags: @test#
+
+
+==========
+Given ::
+I access the site "https://buscacepinter.correios.com.br/app/endereco/index.php" icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 731ms)#
+==========
+
+==== Scenario: Search and validate CEP
+[small]#tags: @severity=critical,@test#
+
+
+==========
+When ::
+click in the search field and set CEP "80700000" icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 200ms)#
+And ::
+validate that the CEP is "invalid" and validate the message "Não há dados a serem exibidos" icon:thumbs-up[role="green",title="Passed"] [small right]#(810ms)#
+And ::
+go back to the menu and validate the title "Busca CEP" icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 435ms)#
+Then ::
+click in the search field and set CEP "81280-140" icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 831ms)#
+And ::
+validate that the CEP is "valid" and validate the message "Avenida Juscelino Kubitschek de Oliveira - até 2199 - lado ímpar" icon:thumbs-up[role="green",title="Passed"] [small right]#(678ms)#
+==========
+
+[[Store, Store]]
+=== *Store*
+
+==== Scenario: Search item and validate it does not exist
+[small]#tags: @test#
+
+
+==========
+Given ::
+I access the site "http://automationpractice.com/" icon:thumbs-up[role="green",title="Passed"] [small right]#(11s 399ms)#
+When ::
+I seach the item "camiseta" icon:thumbs-up[role="green",title="Passed"] [small right]#(07s 935ms)#
+Then ::
+validate the message "No results were found for your search camiseta" icon:thumbs-up[role="green",title="Passed"] [small right]#(818ms)#
+==========
+
+==== Scenario: Search item and validate it is in stock
+[small]#tags: @test#
+
+
+==========
+Given ::
+I access the site "http://automationpractice.com/" icon:thumbs-up[role="green",title="Passed"] [small right]#(11s 923ms)#
+When ::
+I seach the item "blouse" icon:thumbs-up[role="green",title="Passed"] [small right]#(09s 868ms)#
+Then ::
+validate that it exists in stock "Blouse" icon:thumbs-up[role="green",title="Passed"] [small right]#(821ms)#
+==========
+

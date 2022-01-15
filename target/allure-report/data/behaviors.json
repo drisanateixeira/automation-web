@@ -1,0 +1,76 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Search CEP and validate",
+    "children" : [ {
+      "name" : "Search and validate CEP",
+      "children" : [ {
+        "name" : "Search and validate CEP",
+        "uid" : "6e2e4bd99d6f2262",
+        "parentUid" : "49ba98703bc170f3d659812aa610cfe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642278241333,
+          "stop" : 1642278268266,
+          "duration" : 26933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49ba98703bc170f3d659812aa610cfe5"
+    } ],
+    "uid" : "d0045e71dc38601b5896bb16d75696bf"
+  }, {
+    "name" : "Store",
+    "children" : [ {
+      "name" : "Search item and validate it does not exist",
+      "children" : [ {
+        "name" : "Search item and validate it does not exist",
+        "uid" : "21293e142edeab50",
+        "parentUid" : "dd50cc6c465158abd032f12ab90c97fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642278269540,
+          "stop" : 1642278299576,
+          "duration" : 30036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd50cc6c465158abd032f12ab90c97fd"
+    }, {
+      "name" : "Search item and validate it is in stock",
+      "children" : [ {
+        "name" : "Search item and validate it is in stock",
+        "uid" : "f4d385769d5e83e0",
+        "parentUid" : "1745750929ff194103b11fb052f0a86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642278299620,
+          "stop" : 1642278333755,
+          "duration" : 34135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1745750929ff194103b11fb052f0a86e"
+    } ],
+    "uid" : "4ed64c53877284ee9eb43df4a97e6332"
+  } ]
+}

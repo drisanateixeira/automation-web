@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5P1FIO1",
+    "children" : [ {
+      "name" : "11768@DESKTOP-5P1FIO1.main(1)",
+      "children" : [ {
+        "name" : "Search item and validate it is in stock",
+        "uid" : "f4d385769d5e83e0",
+        "parentUid" : "0027af2ef3c9340c58559cea1487ec08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642278299620,
+          "stop" : 1642278333755,
+          "duration" : 34135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search and validate CEP",
+        "uid" : "6e2e4bd99d6f2262",
+        "parentUid" : "0027af2ef3c9340c58559cea1487ec08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642278241333,
+          "stop" : 1642278268266,
+          "duration" : 26933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search item and validate it does not exist",
+        "uid" : "21293e142edeab50",
+        "parentUid" : "0027af2ef3c9340c58559cea1487ec08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642278269540,
+          "stop" : 1642278299576,
+          "duration" : 30036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0027af2ef3c9340c58559cea1487ec08"
+    } ],
+    "uid" : "aee78318d189267092fcd7a98eaf2901"
+  } ]
+}

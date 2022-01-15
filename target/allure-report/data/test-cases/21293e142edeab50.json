@@ -1,0 +1,208 @@
+{
+  "uid" : "21293e142edeab50",
+  "name" : "Search item and validate it does not exist",
+  "fullName" : "Store: Search item and validate it does not exist",
+  "historyId" : "496cb4949302c733311dd6e760f5b32",
+  "time" : {
+    "start" : 1642278269540,
+    "stop" : 1642278299576,
+    "duration" : 30036
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "ServiceHooks.initializeTest()",
+    "time" : {
+      "start" : 1642278269540,
+      "stop" : 1642278275161,
+      "duration" : 5621
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I access the site \"http://automationpractice.com/\"",
+      "time" : {
+        "start" : 1642278275162,
+        "stop" : 1642278286563,
+        "duration" : 11401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bce533c3574bbe72",
+        "name" : "Evidência: ",
+        "source" : "bce533c3574bbe72.png",
+        "type" : "image/png",
+        "size" : 925009
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When  I seach the item \"camiseta\"",
+      "time" : {
+        "start" : 1642278286566,
+        "stop" : 1642278294502,
+        "duration" : 7936
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c9026318db20a8f",
+        "name" : "Evidência: ",
+        "source" : "4c9026318db20a8f.png",
+        "type" : "image/png",
+        "size" : 926563
+      }, {
+        "uid" : "8b8ed0ef547c4dce",
+        "name" : "Evidência: ",
+        "source" : "8b8ed0ef547c4dce.png",
+        "type" : "image/png",
+        "size" : 1071378
+      }, {
+        "uid" : "b855d7f502eba66a",
+        "name" : "Evidência: ",
+        "source" : "b855d7f502eba66a.png",
+        "type" : "image/png",
+        "size" : 137315
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  validate the message \"No results were found for your search camiseta\"",
+      "time" : {
+        "start" : 1642278294504,
+        "stop" : 1642278295323,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb7d094dc2609b70",
+        "name" : "Evidência: ",
+        "source" : "bb7d094dc2609b70.png",
+        "type" : "image/png",
+        "size" : 137315
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "ServiceHooks.endTest(Scenario)",
+    "time" : {
+      "start" : 1642278295324,
+      "stop" : 1642278295823,
+      "duration" : 499
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fac7baa3b3271162",
+      "name" : "Search item and validate it does not exist",
+      "source" : "fac7baa3b3271162.png",
+      "type" : "image/png",
+      "size" : 137315
+    }, {
+      "uid" : "8c1303da3ae47425",
+      "name" : "Search item and validate it does not exist",
+      "source" : "8c1303da3ae47425.bin",
+      "type" : "application/octet-stream",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "ServiceHooks.fecharBrowser()",
+    "time" : {
+      "start" : 1642278295824,
+      "stop" : 1642278299576,
+      "duration" : 3752
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Store"
+  }, {
+    "name" : "story",
+    "value" : "Search item and validate it does not exist"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5P1FIO1"
+  }, {
+    "name" : "thread",
+    "value" : "11768@DESKTOP-5P1FIO1.main(1)"
+  }, {
+    "name" : "package",
+    "value" : "Store"
+  }, {
+    "name" : "suite",
+    "value" : "Store"
+  }, {
+    "name" : "testClass",
+    "value" : "Search item and validate it does not exist"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "test" ]
+  },
+  "source" : "21293e142edeab50.json",
+  "parameterValues" : [ ]
+}
