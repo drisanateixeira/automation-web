@@ -126,7 +126,7 @@ public class Action {
 	 */
 	public static void screenshot(WebDriver driver) {
 		try {
-			Allure.addAttachment("Evidência: ",	new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+			Allure.addAttachment("Evidence: ",	new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 			logger.info(ValidationMessage.PASSED.getValidation());
 		} catch (Exception e) {
 			logger.info(ValidationMessage.FAILED.getValidation() + e);
